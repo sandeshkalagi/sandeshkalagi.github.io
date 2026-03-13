@@ -248,7 +248,38 @@ h2 {
 .project-card {
   transition: transform 0.25s ease, opacity 0.2s ease;
 }
+.tech-stack {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 
+.tech-stack span {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.project-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
 .project-card:hover {
   transform: translateY(-6px);
 }
@@ -382,3 +413,6 @@ textarea {
     display: flex;
   }
 }
+
+
+
